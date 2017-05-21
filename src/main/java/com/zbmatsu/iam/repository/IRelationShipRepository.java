@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by Administrator on 2017/3/2.
+ * Created by Administrator on 2017/3/2
  */
 @Repository("relationShipRepository")
 public interface IRelationShipRepository extends TypedIdCassandraRepository<RelationShip, Serializable> {

@@ -7,7 +7,7 @@ import org.springframework.data.cassandra.mapping.Table;
 import java.time.LocalDateTime;
 
 /**
- * Created by Administrator on 2017/3/2.
+ * Created by Administrator on 2017/3/2
  */
 @Table("relationship")
 public class RelationShip {
