@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * Created by Administrator on 2017/3/3.
+ * Created by Administrator on 2017/3/3
  */
 @RestController
 @RequestMapping(produces = "application/json;charset=utf-8")

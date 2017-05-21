@@ -8,11 +8,13 @@ import javax.validation.Payload;
 import java.lang.annotation.*;
 
 /**
- * Created by Administrator on 2017/3/6.
+ * Created by Administrator on 2017/3/6
+ * 自定义属性验证注解
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.PARAMETER, ElementType.FIELD})
+//约束,校验的规则
 @Constraint(validatedBy = {JsonArrayValidator.class})
 public @interface JsonArray {
 

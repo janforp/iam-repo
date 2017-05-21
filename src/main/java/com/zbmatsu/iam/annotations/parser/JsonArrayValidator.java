@@ -8,7 +8,8 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 /**
- * Created by Administrator on 2017/3/4.
+ * Created by Administrator on 2017/3/4
+ * 自定义校验规则
  */
 public class JsonArrayValidator implements ConstraintValidator<JsonArray, Object> {
 

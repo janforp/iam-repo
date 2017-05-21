@@ -11,6 +11,7 @@ import org.springframework.data.cassandra.repository.config.EnableCassandraRepos
 @SpringBootApplication
 @EnableConfigurationProperties({PropertiesBean.class})
 @ServletComponentScan
+//启动数据库
 @EnableCassandraRepositories
 public class IamRepoApplication {
 
